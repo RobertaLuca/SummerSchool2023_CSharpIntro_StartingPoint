@@ -2,7 +2,7 @@
 
 public class DelegatesAndLambdas
 {
-    /* TODO 16
+    /* TODO 14
      * Create a simple delegate (void)
      * Method with parameter (the created delegate) that invokes it
      * Action instead of custom delegate
@@ -27,7 +27,7 @@ public static class DelegatesDemos
         DelegatesAndLambdas demo = new();
 
         demo.DoCallback(delegate { Console.WriteLine("hello there"); });
-        demo.DoCallbackAction(delegate { Console.WriteLine("general kenobi"); });
+        demo.DoCallbackAction(delegate { Console.WriteLine("do not use me"); });
     }
 
     public static void Lambda()

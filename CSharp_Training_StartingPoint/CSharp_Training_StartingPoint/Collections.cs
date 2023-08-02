@@ -4,7 +4,7 @@ public class Collections
 {
     public static void List()
     {
-        /* TODO 6
+        /* TODO 4
          * Create a list and initialize it using Add method
          * Create a list with initializer
          * Print list elements using for loop and foreach
@@ -41,7 +41,7 @@ public class Collections
 
     public static void Dictionary()
     {
-        /* TODO 7
+        /* TODO 5
          * Create a dictionary and initialize it (2 methods)
          * Print the elements using for loop and foreach
          * .ToString() is not mandatory, but it is recommended for value types
@@ -51,7 +51,7 @@ public class Collections
 
     public static void Arrays()
     {
-        // TODO 8: Arrays
+        // TODO 6
 
         int[] a = new int[3];
         a[0] = 1;

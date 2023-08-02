@@ -2,18 +2,41 @@
 
 public class EventsDemo
 {
-    /* TODO 17
+    /* TODO 15
      * Create an event
      * Create a full event
      * Trigger the created events
      * Examples already present for the usage cases
      */
 
+    public Action? MyAction { get; set; }
+
+    public event Action? MyEvent;
+
+    private Action? _fullEvent;
+
+    public event Action? FullEvent
+    {
+        add => _fullEvent += value; // multicast delegate, is just a list of delegates
+        remove => _fullEvent -= value;
+    }
+
+    public void TriggerEvent()
+    {
+        MyEvent?.Invoke();
+    }
+
+    public void TriggerFullEvent()
+    {
+        _fullEvent?.Invoke();
+
+        // FullEvent?.Invoke(); // error
+    }
 }
 
 public static class Tester
 {
-    /*public static void TriggerAction()
+    public static void TriggerAction()
     {
         EventsDemo demo = new();
 
@@ -37,5 +60,5 @@ public static class Tester
         // demo.MyEvent?.Invoke(); // error
 
         demo.TriggerEvent();
-    }*/
+    }
 }

@@ -8,7 +8,3 @@
  * a method
  */
 
-public class DemoClass
-{ 
-   
-}

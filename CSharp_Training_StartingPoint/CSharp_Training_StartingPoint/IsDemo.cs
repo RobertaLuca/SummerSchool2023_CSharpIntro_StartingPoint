@@ -4,18 +4,18 @@ public class IsDemo
 {
     public void IsTypeChecking()
     {
-        /* TODO 10
+        /* TODO 8
          * Create a variable of type object and initialize it with 1
-         * Check if that object is a string and convert it to a string (2 methods)
+         * Check if that object is a string and convert it to a string (3 methods)
          
          * something as string <=> (something is string) ? (string)something : null
          */
 
         // ....
 
-        /*string c = something as string;
+        /*string c = something as string; // (something is string) ? (string)something : null
 
-        int a = something as int; // error
+        int a = something as int; // error (int can not return null)
 
         int d = (int)something; // no type checking
 

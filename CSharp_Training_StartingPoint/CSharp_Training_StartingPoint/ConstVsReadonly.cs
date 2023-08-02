@@ -1,10 +1,10 @@
 ﻿namespace CSharp_Training.Optimizations;
 
-/* TODO 12
+/* TODO 10
  * Const vs. Readonly
  */
 
-public sealed class ConstVsReadonly // sealed does not allow inheritance, some optimization can be done behind the scenes
+public sealed class ConstVsReadonly // sealed does not allow inheritance
 {
     private const int _a = 10; // must be a constant or an expression that can be evaluated at compile time,
                                // works similar with a macro from C++ (#define), so it will be inlined

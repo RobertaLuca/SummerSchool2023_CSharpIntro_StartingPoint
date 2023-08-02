@@ -2,7 +2,7 @@
 
 public class NullableDemo
 {
-    /* TODO 9
+    /* TODO 7
      * Create a nullable int
         * int is a value type, by default null values are not allowed, but by marking with "?" it will be nullable
         * check if it has a value using the proper method

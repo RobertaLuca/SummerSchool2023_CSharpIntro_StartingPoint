@@ -2,13 +2,13 @@
 
 public class Generics
 {
-    /* TODO 13
+    /* TODO 11
      * Create a generic method with a parameter of a generic type
      * Create a generic method that can accept only classes as parameters
      */
     
 }
 
-/* TODO 14
+/* TODO 12
  * Create a generic class
  */
